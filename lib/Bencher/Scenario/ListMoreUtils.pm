@@ -8,6 +8,12 @@ use strict;
 use warnings;
 
 our $scenario = {
+    summary => 'Benchmark List::MoreUtils::PP vs List::MoreUtils::XS',
+    description => <<'_',
+
+EARLY VERSION, ONLY A FEW FUNCTIONS HAVE BEEN BENCHMARKED.
+
+_
     participants => [
         # uniq
         {
@@ -74,13 +80,4 @@ our $scenario = {
 };
 
 1;
-# ABSTRACT: Benchmark List::MoreUtils::PP vs List::MoreUtils::XS
-
-=head1 SYNOPSIS
-
- % bencher -m ListMoreUtils [other options]...
-
-
-=head1 DESCRIPTION
-
-B<EARLY VERSION, ONLY A FEW FUNCTIONS HAVE BEEN BENCHMARKED>
+# ABSTRACT:
